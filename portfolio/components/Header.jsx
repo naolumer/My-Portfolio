@@ -13,7 +13,7 @@ const Header = () => {
             <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo'>Hi! I'm Naol Umer <Image src={assets.hand_icon} alt=''
                 className='w-6'/>
             </h3>
-
+            
             <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-ovo'>
                 full stack web developer based in Addis Ababa
             </h1>
@@ -31,9 +31,6 @@ const Header = () => {
                 className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>my resume <Image src={assets.download_icon} alt=''
                 className='w-4'/></a>
             </div>
-
-        
-        
     </div>
   )
 }
