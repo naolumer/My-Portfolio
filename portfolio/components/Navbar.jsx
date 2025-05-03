@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <>
      <nav className='w-full fixed px-5 lg:px-8 xl:px-[8%] py-4
-     flex items-center justify-between z-50'>
+     flex items-center justify-between z-50 bg-[#fcf4ff] opacity-95'>
         <a href="#top">
             <Image src={assets.logo} className="w-28 cursor-pointer mr-14" alt=''></Image>
         </a>
