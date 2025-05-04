@@ -17,6 +17,7 @@
   --color-darkTheme: "#11001F";
   --boxShadow-black: 4px 4px 0 #000;
   --boxShadow-white: 4px 4px 0 #fff;
+  --dark-mode: selector;
 
 }
 
