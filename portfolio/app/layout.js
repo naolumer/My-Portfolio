@@ -19,9 +19,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth dark">
       <body
-        className={`${outfit.classname} ${ovo.classname} antialiased leading-8 overflow-x-hidden`}
+        className={`${outfit.classname} ${ovo.classname} antialiased leading-8 overflow-x-hidden 
+          dark:bg-[#11001F] dark:text-white`}
       >
         {children}
       </body>
