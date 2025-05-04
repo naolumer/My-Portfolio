@@ -2,7 +2,7 @@ import { assets } from '@/assets/assets'
 import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 
-const Navbar = () => {
+const Navbar = ({isDarkMode, setIsDarkMode}) => {
 
     const [isScroll, setIsScroll] = useState(false)
 
@@ -42,7 +42,7 @@ const Navbar = () => {
         </ul>
 
         <div className='flex items-center gap-4'>
-            <button>
+            <button onClick={()=> setIsDarkMode(prev => !prev)} className='cursor-pointer'>
                 <Image src={assets.moon_icon} alt='' className='w-6'></Image>
             </button>
             <a className='hidden lg:flex items-center gap-3 px-10 py-2
