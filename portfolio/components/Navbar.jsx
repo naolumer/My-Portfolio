@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <>
-     <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4
+     <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-2.5
      flex items-center justify-between z-50 ${isScroll ? "bg-white/50 backdrop-blur-lg shadow-sm": ""} `}>
         <a href="#top">
             <Image src={assets.logo} className="w-28 cursor-pointer mr-14" alt=''></Image>
@@ -45,7 +45,7 @@ const Navbar = () => {
             <button>
                 <Image src={assets.moon_icon} alt='' className='w-6'></Image>
             </button>
-            <a className='hidden lg:flex items-center gap-3 px-10 py-2.5
+            <a className='hidden lg:flex items-center gap-3 px-10 py-2
             border border-gray-500 rounded-full ml-4 font-ovo' href="#contact">Contact <Image src={assets.arrow_icon} className="w-3" alt='' /></a>
 
             <button className='block md:hidden ml-3 cursor-pointer' onClick={openMenu}>
