@@ -5,8 +5,8 @@ import Image from 'next/image'
 const About = () => {
   return (
     <div id='about' className='w-full px-[12%] py-10 scroll-mt-20 '>
-        <h4 className='text-center mb-2 text-lg font-ovo'>Introduction</h4>
-        <h2 className='text-center text-5xl font-ovo'>About me</h2>
+        <h4 className='text-center mb-2 text-lg font-Ovo'>Introduction</h4>
+        <h2 className='text-center text-5xl font-Ovo'>About me</h2>
 
         <div className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
             <div className='w-64 sm:w-80 rounded-3xl max-w-none'>
@@ -14,7 +14,7 @@ const About = () => {
             </div>
 
             <div className='flex-1'>
-                <p className='mb-10 max-w-2xl font-ovo'>
+                <p className='mb-10 max-w-2xl font-Ovo'>
                     I am an experienced Full Stack developer with over a year of professional expertise in the field.
                     Throughout my career, I have had the previlege of collaborating with prestigious organizations, 
                     contributing to their success and growth.
@@ -32,7 +32,7 @@ const About = () => {
                     ))}
                 </ul>
 
-                <h4 className='my-6 text-gray-700 font-ovo'>Tools I use</h4>
+                <h4 className='my-6 text-gray-700 font-Ovo'>Tools I use</h4>
 
                 <ul className='flex items-center gap-3 sm:gap-5'>
                     {toolsData.map((tool,index)=>(
