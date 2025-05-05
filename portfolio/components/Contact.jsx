@@ -2,7 +2,7 @@ import { assets } from '@/assets/assets';
 import React from 'react'
 import Image from 'next/image';
 
-const Contact = () => {
+const Contact = ({isDarkMode, setIsDarkMode}) => {
 
     const [result, setResult] = React.useState("");
 

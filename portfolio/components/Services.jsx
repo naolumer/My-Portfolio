@@ -3,7 +3,7 @@ import { serviceData } from '@/assets/assets';
 import { assets } from '@/assets/assets';
 import Image from 'next/image';
 
-const Services = () => {
+const Services = ({isDarkMode, setIsDarkMode}) => {
   return (
     <div id="services" className='w-full px-[12%] py-10 scroll-mt-20'>
       <h4 className='text-center mb-2 text-lg font-Ovo'>

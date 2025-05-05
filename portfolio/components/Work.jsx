@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { assets } from '@/assets/assets'
 import { workData } from '@/assets/assets'
 
-const Work = () => {
+const Work = ({isDarkMode, setIsDarkMode}) => {
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
         <h4 className="text-center mb-2 text-lg font-Ovo">
