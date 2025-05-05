@@ -17,7 +17,7 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
             showcasing my expertise in front-end development.
         </p>
 
-        <div className="grid  [grid-template-columns:repeat(auto-fit,_minmax(200px,_1fr))] my-10 gap-5">
+        <div className="grid  [grid-template-columns:repeat(auto-fit,_minmax(200px,_1fr))] my-10 gap-5 dark:text-black">
             {workData.map((project, index) => (
                 <div key={index}
                 className="aspect-square bg-no-repeat bg-cover bg-center rounded-lg relative cursor-pointer group"
@@ -38,8 +38,8 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
         </div>
 
         <a href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 
-        hover:bg-[#fcf4ff] duration-500'>
-            Show more <Image src={assets.right_arrow_bold} alt='Right arrow' className='w-4'/>
+        hover:bg-[#fcf4ff] duration-500 dark:text-white dark:border-white dark:hover:bg-[#11003F]'>
+            Show more <Image src={isDarkMode? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='Right arrow' className='w-4'/>
         </a>
     </div>
   )
