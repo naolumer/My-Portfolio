@@ -57,6 +57,12 @@ import youtubeclone from "./youtube-clone.png"
 import netflixclone from "./netflix-clone.png"
 import greencart from "./GreenCart.png"
 import poll_app from "./poll-app.png"
+import spotify from "./spotify.png"
+import realEstate from "./realEstate.png"
+import shoefilter from "./shoefilter.png"
+import tesla from "./tesla.png"
+import reactStore from "./reactStore.png"
+import todoApp from "./todoApp.png"
 
 
 
@@ -111,7 +117,8 @@ export const assets = {
     typescript,
     css,html,javascript,bootstrap,postman,
     prescripto, forever,tomato,poll_app,netflixclone,
-    youtubeclone, mern_auth,greencart
+    youtubeclone, mern_auth,greencart,tesla,shoefilter,
+    reactStore,realEstate,spotify,todoApp
 
 
 };
@@ -168,28 +175,40 @@ export const workData = [
     {
         title: "Tesla configurator",
         description: "A website to configure tesla cars",
-        bgImage: ,
+        bgImage: assets.tesla ,
         link: "https://github.com/naolumer/Web-Development/tree/main/Javascript-course/Tesla-Configurator"
 
     },
     {
         title: "Spotify clone",
         description: "A spotify like website that we can play music with",
-        bgImage: ,
+        bgImage: assets.spotify ,
         link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Spotify-Clone"
 
     },
     {
         title: "Shoe Filtering Website",
         description: "Shoe filtering website with different filters and searching functionality",
-        bgImage: ,
+        bgImage: assets.shoefilter ,
         link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Shoe-Filtering/shoeFiltering"
     },
     {
         title: "Modern Real Estate Site",
         description: "A real estate website built using react.js, tailwind, and framer motion for animation",
-        bgImage: ,
+        bgImage: assets.realEstate ,
         link: "https://github.com/naolumer/RealEstate-Website/tree/main/RealEstate"
+    },
+    {
+        title: "React Store",
+        description: "Products store with filtering,searching and pagination",
+        bgImage: assets.reactStore,
+        link:"https://github.com/naolumer/React-Store/tree/main/react-ecommerce"
+    },
+    {
+        title: "Fullstack todoApp",
+        description: "Todo app with adding,deleting,mark as completed functionality",
+        bgImage: assets.todoApp,
+        link: "https://github.com/naolumer/Next.js-Intro/tree/main/fullstack-todoapp"
     }
 ]
 
