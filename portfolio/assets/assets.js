@@ -49,6 +49,16 @@ import html from "./html.svg"
 import javascript from "./javascript.svg"
 import bootstrap from "./bootstrap.svg"
 import postman from "./postman.svg"
+import forever from "./forever.png"
+import prescripto from "./prescripto.png"
+import tomato from "./tomato.png"
+import mern_auth from "./mern-auth.png"
+import youtubeclone from "./youtube-clone.png"
+import netflixclone from "./netflix-clone.png"
+import greencart from "./GreenCart.png"
+import poll_app from "./poll-app.png"
+
+
 
 
 
@@ -99,30 +109,88 @@ export const assets = {
     mysql,
     tailwind,
     typescript,
-    css,html,javascript,bootstrap,postman
+    css,html,javascript,bootstrap,postman,
+    prescripto, forever,tomato,poll_app,netflixclone,
+    youtubeclone, mern_auth,greencart
+
+
 };
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        title: 'Fullstack project',
+        description: 'Online Doctor Appointment',
+        bgImage: assets.prescripto,
+        link: "https://github.com/naolumer/Prescripto"
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        title: 'E-commerce',
+        description: 'Fullstack Online Shop',
+        bgImage: assets.forever,
+        link: "https://github.com/naolumer/Full-Stack-E-commerce-Website"
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        title: 'Authentication-MERN',
+        description: 'Full fledged user authentication including resetting password, email verification, OTP verifcation',
+        bgImage: assets.mern_auth,
+        link: "https://github.com/naolumer/Authentication-using-MERN"
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
+        title: 'Polling Website',
+        description: 'A polling website where users can create, vote, bookmark and manage their polls.',
+        bgImage: assets.poll_app,
+        link: "https://github.com/naolumer/Polling-website"
     },
+    {
+        title: 'Youtube Clone',
+        description: 'Youtube clone built using reactjs',
+        bgImage: assets.youtubeclone,
+        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/youtubeClone"
+    },
+    {
+        title: 'Netflix Clone',
+        description: 'Fullstack netflix app built using react and firebase.',
+        bgImage: assets.netflixclone,
+        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Netflix-Clone/netflix"
+    },
+    {
+        title: 'Food delivery website',
+        description: 'fullstack food delivery website where users can choose and order food online.',
+        bgImage: assets.tomato,
+        link: "https://github.com/naolumer/MERN-FoodDeliveryApp"
+    },
+    {
+        title: 'Grocery Shop',
+        description: 'Fullstack web-app for buying grocery items online',
+        bgImage: assets.greencart,
+        link: "https://github.com/naolumer/Grocery-Delivery-Fullstack"
+    },
+    {
+        title: "Tesla configurator",
+        description: "A website to configure tesla cars",
+        bgImage: ,
+        link: "https://github.com/naolumer/Web-Development/tree/main/Javascript-course/Tesla-Configurator"
+
+    },
+    {
+        title: "Spotify clone",
+        description: "A spotify like website that we can play music with",
+        bgImage: ,
+        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Spotify-Clone"
+
+    },
+    {
+        title: "Shoe Filtering Website",
+        description: "Shoe filtering website with different filters and searching functionality",
+        bgImage: ,
+        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Shoe-Filtering/shoeFiltering"
+    },
+    {
+        title: "Modern Real Estate Site",
+        description: "A real estate website built using react.js, tailwind, and framer motion for animation",
+        bgImage: ,
+        link: "https://github.com/naolumer/RealEstate-Website/tree/main/RealEstate"
+    }
 ]
 
 export const serviceData = [

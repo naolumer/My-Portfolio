@@ -68,12 +68,13 @@ const About = ({isDarkMode, setIsDarkMode}) => {
         <motion.div
         initial = {{opacity: 0}}
         whileInView = {{opacity:1}}
-        transition={{duration: 0.8}}>
+        transition={{duration: 0.8}} className='mb-16' >
+            
             <motion.h2 
                 intial = {{opacity: 0,y: -20}}
                 whileInView = {{y:0, opacity:1}}
                 transition={{duration: 0.5, delay:0.5}}
-                className='text-center text-5xl font-Ovo mb-12 '>
+                className='text-center text-5xl font-Ovo mb-14 '>
                 Tools I Use
             </motion.h2>
         <motion.ul
