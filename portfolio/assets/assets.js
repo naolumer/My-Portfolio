@@ -36,6 +36,8 @@ import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import profile_pic from "./profile-pic.jpg"
+import nextjs from "./nextjs.svg"
+
 
 export const assets = {
     user_image,
@@ -75,7 +77,8 @@ export const assets = {
     send_icon,
     right_arrow_bold,
     right_arrow_bold_dark,
-    profile_pic
+    profile_pic,
+    nextjs
 };
 
 export const workData = [
@@ -115,5 +118,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git,assets.nextjs
 ];
