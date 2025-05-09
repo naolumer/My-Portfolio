@@ -44,6 +44,11 @@ import reactjs from "./reactjs.svg"
 import mysql from "./mysql.svg"
 import tailwind from "./tailwind.svg"
 import typescript from "./typescript.svg"
+import css from "./css.svg"
+import html from "./html.svg"
+import javascript from "./javascript.svg"
+import bootstrap from "./bootstrap.svg"
+import postman from "./postman.svg"
 
 
 
@@ -93,7 +98,8 @@ export const assets = {
     expressjs,
     mysql,
     tailwind,
-    typescript
+    typescript,
+    css,html,javascript,bootstrap,postman
 };
 
 export const workData = [
@@ -134,5 +140,5 @@ export const infoList = [
 
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git,assets.nextjs,assets.nodejs,assets.expressjs,assets.reactjs,
-    assets.mysql,assets.tailwind,assets.typescript,assets.pyhton
+    assets.mysql,assets.tailwind,assets.typescript,assets.pyhton,assets.html, assets.css,assets.javascript,assets.bootstrap,assets.postman
 ];
