@@ -50,9 +50,18 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
                 >
                 <Image src={project.bgImage} alt='Img' width={400} height={400} className='w-fit'  />
                 <h3 className='text-lg my-4 text-gray-900 font-semibold dark:text-white'>{project.title}</h3>
-                <p className='text-sm text-gray-700 leading-5 dark:text-white/80'>
+                <p className='text-sm text-gray-700 leading-5 dark:text-white/80 mb-2'>
                     {project.description}
                 </p>
+
+                <div className='flex items-start gap-2  w-full my-6
+                        cursor-pointer rounded-lg '>
+                {
+                  project.techStack.map((img,index)=>{
+                    return <Image key={index} src={img} className='w-6 sm:w-8' alt='img'/>          
+                  })
+                }
+                </div>
 
                 <a href={project.link} className='flex items-center gap-2 text-sm mt-5'>
                   Read more <Image alt='' src={assets.right_arrow} className='w-4' />
