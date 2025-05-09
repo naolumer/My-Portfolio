@@ -49,8 +49,8 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
                 dark:hover:shadow-white'
                 >
                 <Image src={project.bgImage} alt='Img' width={400} height={400} className='w-fit'  />
-                <h3 className='text-lg my-4 text-gray-700 dark:text-white'>{project.title}</h3>
-                <p className='text-sm text-gray-600 leading-5 dark:text-white/80'>
+                <h3 className='text-lg my-4 text-gray-900 font-semibold dark:text-white'>{project.title}</h3>
+                <p className='text-sm text-gray-700 leading-5 dark:text-white/80'>
                     {project.description}
                 </p>
 

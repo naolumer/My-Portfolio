@@ -63,6 +63,9 @@ import shoefilter from "./shoefilter.png"
 import tesla from "./tesla.png"
 import reactStore from "./reactStore.png"
 import todoApp from "./todoApp.png"
+import framer_motion from "./framer-motion.svg"
+import postgresql from "./postgreSQL.png"
+import mongoose from  "./mongoose.png"
 
 
 
@@ -118,7 +121,8 @@ export const assets = {
     css,html,javascript,bootstrap,postman,
     prescripto, forever,tomato,poll_app,netflixclone,
     youtubeclone, mern_auth,greencart,tesla,shoefilter,
-    reactStore,realEstate,spotify,todoApp
+    reactStore,realEstate,spotify,todoApp,framer_motion,
+    postgresql,mongoose
 
 
 };
@@ -128,87 +132,101 @@ export const workData = [
         title: 'Fullstack project',
         description: 'Online Doctor Appointment',
         bgImage: assets.prescripto,
-        link: "https://github.com/naolumer/Prescripto"
+        link: "https://github.com/naolumer/Prescripto",
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: 'E-commerce',
         description: 'Fullstack Online Shop',
         bgImage: assets.forever,
-        link: "https://github.com/naolumer/Full-Stack-E-commerce-Website"
+        link: "https://github.com/naolumer/Full-Stack-E-commerce-Website",
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: 'Authentication-MERN',
         description: 'Full fledged user authentication including resetting password, email verification, OTP verifcation',
         bgImage: assets.mern_auth,
-        link: "https://github.com/naolumer/Authentication-using-MERN"
+        link: "https://github.com/naolumer/Authentication-using-MERN",
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: 'Polling Website',
         description: 'A polling website where users can create, vote, bookmark and manage their polls.',
         bgImage: assets.poll_app,
-        link: "https://github.com/naolumer/Polling-website"
+        link: "https://github.com/naolumer/Polling-website",
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: 'Youtube Clone',
         description: 'Youtube clone built using reactjs',
         bgImage: assets.youtubeclone,
-        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/youtubeClone"
+        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/youtubeClone",
+        techStack: [reactjs, css, javascript, html]
     },
     {
         title: 'Netflix Clone',
         description: 'Fullstack netflix app built using react and firebase.',
         bgImage: assets.netflixclone,
-        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Netflix-Clone/netflix"
+        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Netflix-Clone/netflix",
+        techStack: [reactjs, firebase, css,javascript]
     },
     {
         title: 'Food delivery website',
         description: 'fullstack food delivery website where users can choose and order food online.',
         bgImage: assets.tomato,
-        link: "https://github.com/naolumer/MERN-FoodDeliveryApp"
+        link: "https://github.com/naolumer/MERN-FoodDeliveryApp",
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: 'Grocery Shop',
         description: 'Fullstack web-app for buying grocery items online',
         bgImage: assets.greencart,
-        link: "https://github.com/naolumer/Grocery-Delivery-Fullstack"
+        link: "https://github.com/naolumer/Grocery-Delivery-Fullstack",
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: "Tesla configurator",
         description: "A website to configure tesla cars",
         bgImage: assets.tesla ,
-        link: "https://github.com/naolumer/Web-Development/tree/main/Javascript-course/Tesla-Configurator"
+        link: "https://github.com/naolumer/Web-Development/tree/main/Javascript-course/Tesla-Configurator",
+        techStack: [ javascript, css, html]
 
     },
     {
         title: "Spotify clone",
         description: "A spotify like website that we can play music with",
         bgImage: assets.spotify ,
-        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Spotify-Clone"
+        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Spotify-Clone",
+        techStack: [reactjs, javascript, css]
 
     },
     {
         title: "Shoe Filtering Website",
         description: "Shoe filtering website with different filters and searching functionality",
         bgImage: assets.shoefilter ,
-        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Shoe-Filtering/shoeFiltering"
+        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Shoe-Filtering/shoeFiltering",
+        techStack: [reactjs, css, javascript]
     },
     {
         title: "Modern Real Estate Site",
         description: "A real estate website built using react.js, tailwind, and framer motion for animation",
         bgImage: assets.realEstate ,
-        link: "https://github.com/naolumer/RealEstate-Website/tree/main/RealEstate"
+        link: "https://github.com/naolumer/RealEstate-Website/tree/main/RealEstate",
+        techStack: [reactjs,tailwind,framer_motion]
     },
     {
         title: "React Store",
         description: "Products store with filtering,searching and pagination",
         bgImage: assets.reactStore,
-        link:"https://github.com/naolumer/React-Store/tree/main/react-ecommerce"
+        link:"https://github.com/naolumer/React-Store/tree/main/react-ecommerce",
+        techStack: [reactjs, typescript, css]
     },
     {
         title: "Fullstack todoApp",
         description: "Todo app with adding,deleting,mark as completed functionality",
         bgImage: assets.todoApp,
-        link: "https://github.com/naolumer/Next.js-Intro/tree/main/fullstack-todoapp"
+        link: "https://github.com/naolumer/Next.js-Intro/tree/main/fullstack-todoapp",
+        techStack: [nextjs,mongodb,tailwind,mongoose]
     }
 ]
 
@@ -227,5 +245,6 @@ export const infoList = [
 
 export const toolsData = [
     assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git,assets.nextjs,assets.nodejs,assets.expressjs,assets.reactjs,
-    assets.mysql,assets.tailwind,assets.typescript,assets.pyhton,assets.html, assets.css,assets.javascript,assets.bootstrap,assets.postman
+    assets.mysql,assets.tailwind,assets.typescript,assets.pyhton,assets.html, assets.css,assets.javascript,assets.bootstrap,assets.postman,
+    assets.framer_motion,assets.postgresql, assets.mongoose
 ];
