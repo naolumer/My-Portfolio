@@ -66,6 +66,9 @@ import todoApp from "./todoApp.png"
 import framer_motion from "./framer-motion.svg"
 import postgresql from "./postgreSQL.png"
 import mongoose from  "./mongoose.png"
+import gmail from "./gmail.png"
+import github from "./github.png"
+import telegram from "./telegram.png"
 
 
 
@@ -122,7 +125,7 @@ export const assets = {
     prescripto, forever,tomato,poll_app,netflixclone,
     youtubeclone, mern_auth,greencart,tesla,shoefilter,
     reactStore,realEstate,spotify,todoApp,framer_motion,
-    postgresql,mongoose
+    postgresql,mongoose,github,gmail,telegram
 
 
 };
@@ -130,28 +133,28 @@ export const assets = {
 export const workData = [
     {
         title: 'Fullstack project',
-        description: 'Online Doctor Appointment',
+        description: 'Online Doctor Appointment webapp where patients can browse through specialist doctors, book appointment and make payment online.',
         bgImage: assets.prescripto,
         link: "https://github.com/naolumer/Prescripto",
         techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: 'E-commerce',
-        description: 'Fullstack Online Shop',
+        description: 'Fullstack Online Shop. Made using Mern technology.separate admin panel where admin can add or remove products.  ',
         bgImage: assets.forever,
         link: "https://github.com/naolumer/Full-Stack-E-commerce-Website",
         techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: 'Authentication-MERN',
-        description: 'Full fledged user authentication including resetting password, email verification, OTP verifcation',
+        description: 'Full fledged user authentication including resetting password, email verification, OTP verifcation, realtime notifications.',
         bgImage: assets.mern_auth,
         link: "https://github.com/naolumer/Authentication-using-MERN",
         techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: 'Polling Website',
-        description: 'A polling website where users can create, vote, bookmark and manage their polls.',
+        description: 'A polling website where users can create, vote, bookmark and manage their polls. also includes profile updating.',
         bgImage: assets.poll_app,
         link: "https://github.com/naolumer/Polling-website",
         techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
@@ -179,14 +182,14 @@ export const workData = [
     },
     {
         title: 'Grocery Shop',
-        description: 'Fullstack web-app for buying grocery items online',
+        description: 'Fullstack web-app for buying grocery items online. Includes user authentication, admin panel, cart system, online payment',
         bgImage: assets.greencart,
         link: "https://github.com/naolumer/Grocery-Delivery-Fullstack",
         techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
     },
     {
         title: "Tesla configurator",
-        description: "A website to configure tesla cars",
+        description: "A website to configure tesla cars. change colors, change price based on tires...",
         bgImage: assets.tesla ,
         link: "https://github.com/naolumer/Web-Development/tree/main/Javascript-course/Tesla-Configurator",
         techStack: [ javascript, css, html]
@@ -210,7 +213,7 @@ export const workData = [
     {
         title: "Modern Real Estate Site",
         description: "A real estate website built using react.js, tailwind, and framer motion for animation",
-        bgImage: assets.realEstate ,
+        bgImage: assets.realEstate,
         link: "https://github.com/naolumer/RealEstate-Website/tree/main/RealEstate",
         techStack: [reactjs,tailwind,framer_motion]
     },
