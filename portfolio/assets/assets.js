@@ -66,9 +66,10 @@ import todoApp from "./todoApp.png"
 import framer_motion from "./framer-motion.svg"
 import postgresql from "./postgreSQL.png"
 import mongoose from  "./mongoose.png"
-import gmail from "./gmail.png"
+import gmail from "./gmail.jpg"
 import github from "./github.png"
-import telegram from "./telegram.png"
+import telegram from "./telegram.webp"
+import github_2 from "./github-2.svg"
 
 
 
@@ -125,8 +126,7 @@ export const assets = {
     prescripto, forever,tomato,poll_app,netflixclone,
     youtubeclone, mern_auth,greencart,tesla,shoefilter,
     reactStore,realEstate,spotify,todoApp,framer_motion,
-    postgresql,mongoose,github,gmail,telegram
-
+    postgresql,mongoose,github,gmail,telegram,github_2
 
 };
 

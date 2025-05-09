@@ -14,6 +14,7 @@ const Footer = ({isDarkMode}) => {
                     <Image src={isDarkMode ? assets.mail_icon_dark : assets.mail_icon} alt='' className='w-6' />
                     naolumer3@gmail.com
                 </div>
+                <p>+251983777202</p>
             </div>
 
             <div className='text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6'>
@@ -21,7 +22,7 @@ const Footer = ({isDarkMode}) => {
                 <ul className='flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                     <li>
                         <a target='_blank' rel='noopener noreferrer' href="https://github.com/naolumer">
-                            
+                            GitHub
                         </a>
                     </li>
                     <li>
