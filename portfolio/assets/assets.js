@@ -37,6 +37,14 @@ import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import profile_pic from "./profile-pic.jpg"
 import nextjs from "./nextjs.svg"
+import pyhton from "./python.svg"
+import expressjs from "./expressjs.svg"
+import nodejs from "./nodejs.svg"
+import reactjs from "./reactjs.svg"
+import mysql from "./mysql.svg"
+import tailwind from "./tailwind.svg"
+import typescript from "./typescript.svg"
+
 
 
 export const assets = {
@@ -78,7 +86,14 @@ export const assets = {
     right_arrow_bold,
     right_arrow_bold_dark,
     profile_pic,
-    nextjs
+    nextjs,
+    pyhton,
+    nodejs,
+    reactjs,
+    expressjs,
+    mysql,
+    tailwind,
+    typescript
 };
 
 export const workData = [
@@ -118,5 +133,6 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git,assets.nextjs
+    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git,assets.nextjs,assets.nodejs,assets.expressjs,assets.reactjs,
+    assets.mysql,assets.tailwind,assets.typescript,assets.pyhton
 ];
