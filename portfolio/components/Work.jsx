@@ -108,8 +108,8 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
             </motion.div> 
 
             <div className='flex items-center justify-center'>
-              <button onClick={onShowMore} className='px-10 py-3 border rounded-md border-white/70 font-medium mt-5 mb-5 
-              hover:scale-105 items-center duration-300 hover:bg-slate-700 text-lg '>{showMore ? "Show less":"Show more"}</button>
+              <button onClick={onShowMore} className={`px-10 py-3 border rounded-md ${isDarkMode ? "border-white/70":"border-black/80"} font-medium mt-5 mb-5 
+              hover:scale-105 items-center duration-300 ${isDarkMode ?"hover:bg-slate-700":"hover:bg-black/10" } text-lg`}>{showMore ? "Show less":"Show more"}</button>
             </div>
         </motion.div>
   )
