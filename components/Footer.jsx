@@ -6,7 +6,7 @@ const Footer = ({isDarkMode}) => {
     return (
         <div className='mt-20'>
             <div className='text-center'>
-            <div className='flex gap-1 ml-[47%] mb-2 '>
+            <div className='flex gap-1 ml-[38%] sm:ml-[46%] mb-2 '>
                <h2 className={`text-4xl ${isDarkMode ?"text-white/90":"text-gray-600"} font-extrabold font-Outfit`}>Naol</h2> 
                <div className='w-[10px] h-[10px] rounded-full bg-red-500 mt-7 '></div>
             </div>

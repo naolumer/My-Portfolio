@@ -11,9 +11,10 @@ const Header = ({isDarkMode,setIsDarkMode}) => {
         initial = {{scale: 0}}
         whileInView={{scale: 1}}
         transition={{duration: 0.8, type:"spring", stiffness:100}}
+        className='mt-32 md:mt-24'
         >
             <Image src={assets.profile_pic} alt=''
-            className='rounded-full w-36 h-36'/>
+            className='rounded-full w-40 h-40'/>
         </motion.div>
             <motion.h3 
                 initial = {{y:-20, opacity: 0}}

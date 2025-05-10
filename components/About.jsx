@@ -26,7 +26,7 @@ const About = ({isDarkMode, setIsDarkMode}) => {
             initial = {{opacity: 0, scale:0.9}}
             whileInView = {{opacity:1, scale:1}}
             transition={{duration: 0.6}}
-             className='w-64 sm:w-80 rounded-3xl max-w-none'>
+             className='w-64 sm:w-80 rounded-3xl max-w-none flex items-center justify-center'>
                 <Image src={assets.profile_pic} alt="user" className="w-[75%] rounded-3xl"/>
             </motion.div>
 
@@ -81,7 +81,7 @@ const About = ({isDarkMode, setIsDarkMode}) => {
                 initial = {{opacity: 0}}
                 whileInView = {{opacity:1}}
                 transition={{duration: 0.6, delay:1.5}}
-                className='flex items-center gap-3 sm:gap-7 flex-wrap w-[80%] md:w-[70%] justify-start mx-auto'>
+                className='flex items-center gap-3 sm:gap-7 flex-wrap w-[100%] md:w-[80%] justify-start mx-auto'>
                     
                     {toolsData.map((tool,index)=>(
                         <motion.li 
@@ -89,7 +89,7 @@ const About = ({isDarkMode, setIsDarkMode}) => {
             
                         key={index} className='flex items-center justify-center w-12 sm:w-14 aspect-square
                         cursor-pointer rounded-lg hover:-translate-y-1 duration-500'>
-                          <Image src={tool} alt='Tool' className='w-10 sm:w-16'/>
+                          <Image src={tool} alt='Tool' className='w-8 sm:w-16'/>
                         </motion.li>
                     ))}
                 </motion.ul>

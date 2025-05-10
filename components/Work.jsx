@@ -25,7 +25,7 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
           whileInView = {{y:0, opacity:1}}
           transition={{duration: 0.3, delay: 0.3}}
           className='text-center mb-2 text-lg font-Ovo'>
-            My portfolio
+            My portfolio4
           </motion.h4>
           <motion.h2 
           intial = {{opacity: 0,y: -20}}
@@ -48,7 +48,7 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
           initial = {{opacity: 0}}
           whileInView = {{opacity:1}}
           transition={{duration: 0.4, delay:0.9}}
-          className='grid  [grid-template-columns:repeat(auto-fit,_minmax(300px,_1fr))] gap-6 my-10'>
+          className='grid  [grid-template-columns:repeat(auto-fit,_minmax(300px,_1fr))] gap-6 my-10 items-center justify-center'>
             { showMore ? workData.map((project, index) => (
                 <motion.div
                 whileHover = {{scale: 1.05}}
@@ -57,7 +57,7 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
                 cursor-pointer hover:-translate-y-1 duration-500 dark:hover:bg-[#11003F] 
                 dark:hover:shadow-white'
                 >
-                <Image src={project.bgImage} alt='Img' width={400} height={400} className='w-fit'  />
+                <Image src={project.bgImage} alt='Img' width={400} height={400} className='w-full'  />
                 <h3 className='text-lg my-4 text-gray-900 font-semibold dark:text-white'>{project.title}</h3>
                 <p className='text-sm text-gray-700 leading-5 dark:text-white/80 mb-2'>
                     {project.description}
@@ -85,7 +85,7 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
               cursor-pointer hover:-translate-y-1 duration-500 dark:hover:bg-[#11003F] 
               dark:hover:shadow-white'
               >
-              <Image src={project.bgImage} alt='Img' width={400} height={400} className='w-fit'  />
+              <Image src={project.bgImage} alt='Img' width={600} height={600} className='w-full'  />
               <h3 className='text-lg my-4 text-gray-900 font-semibold dark:text-white'>{project.title}</h3>
               <p className='text-sm text-gray-700 leading-5 dark:text-white/80 mb-2'>
                   {project.description}
