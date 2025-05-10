@@ -29,15 +29,15 @@ const Header = ({isDarkMode,setIsDarkMode}) => {
                 whileInView={{y:0, opacity:1}}
                 transition={{duration: 0.8, delay: 0.5}}
             className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-                full stack web developer based in Addis Ababa
+                Full stack web developer based in Addis Ababa
             </motion.h1>
             <motion.p 
              initial = {{opacity: 0}}
              whileInView={{opacity:1}}
              transition={{duration: 0.6, delay: 0.7}}
             className='max-w-2xl mx-auto font-Ovo'>
-                I am a fullstack developer from Addis Ababa, Ethiopia with 2 years of experience in 
-                multiple companies like microsoft, tesla and Apple.
+                I am a fullstack developer from Addis Ababa, Ethiopia with almost 2 years of experience in 
+                building multiple projects from start to completion.
             </motion.p>
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a 

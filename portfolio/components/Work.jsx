@@ -1,10 +1,19 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
 import { workData } from '@/assets/assets'
 import {motion} from "motion/react"
+import { useState } from 'react'
 
 const Work = ({isDarkMode, setIsDarkMode}) => {
+
+  const [showMore, setShowMore] = useState(true)
+
+  const onShowMore = ()=>{
+    setShowMore(!showMore)
+  }
+
   return (
     <motion.div 
         initial = {{opacity: 0}}
@@ -40,7 +49,7 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
           whileInView = {{opacity:1}}
           transition={{duration: 0.4, delay:0.9}}
           className='grid  [grid-template-columns:repeat(auto-fit,_minmax(300px,_1fr))] gap-6 my-10'>
-            {workData.map((project, index) => (
+            { showMore ? workData.map((project, index) => (
                 <motion.div
                 whileHover = {{scale: 1.05}}
                 key={index}
@@ -67,9 +76,41 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
                   Read more <Image alt='' src={assets.right_arrow} className='w-4' />
                 </a>
               
-                </motion.div>
-            ))}
-            </motion.div>
+                </motion.div> 
+            )) : workData.slice(0,6).map((project, index) => (
+              <motion.div
+              whileHover = {{scale: 1.05}}
+              key={index}
+              className='border border-gray-400 rounded-lg px-8 py-12 hover:shadow-[4px_4px_0_#000] 
+              cursor-pointer hover:-translate-y-1 duration-500 dark:hover:bg-[#11003F] 
+              dark:hover:shadow-white'
+              >
+              <Image src={project.bgImage} alt='Img' width={400} height={400} className='w-fit'  />
+              <h3 className='text-lg my-4 text-gray-900 font-semibold dark:text-white'>{project.title}</h3>
+              <p className='text-sm text-gray-700 leading-5 dark:text-white/80 mb-2'>
+                  {project.description}
+              </p>
+
+              <div className='flex items-start gap-2  w-full my-6
+                      cursor-pointer rounded-lg '>
+              {
+                project.techStack.map((img,index)=>{
+                  return <Image key={index} src={img} className='w-6 sm:w-8' alt='img'/>          
+                })
+              }
+              </div>
+
+              <a href={project.link} className='flex items-center gap-2 text-sm mt-5'>
+                Read more <Image alt='' src={assets.right_arrow} className='w-4' />
+              </a>
+            
+              </motion.div>)) }
+            </motion.div> 
+
+            <div className='flex items-center justify-center'>
+              <button onClick={onShowMore} className='px-10 py-3 border rounded-md border-white/70 font-medium mt-5 mb-5 
+              hover:scale-105 items-center duration-300 hover:bg-slate-700 text-lg '>{showMore ? "Show less":"Show more"}</button>
+            </div>
         </motion.div>
   )
 }

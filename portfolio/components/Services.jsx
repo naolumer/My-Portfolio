@@ -31,8 +31,8 @@ const Services = ({isDarkMode, setIsDarkMode}) => {
       whileInView = {{opacity:1}}
       transition={{duration: 0.5, delay:0.7}}
       className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
-        I am a frontend developer from California, USA with 10 years of experience
-        in multiple companies like Microsoft, Tesla and Apple.
+        I am a fullstack developer from ethiopia with over 1 year of experience
+        in multiple programming languages and technologies as well as creating seamless user interfaces.
       </motion.p>
 
       <motion.div 
