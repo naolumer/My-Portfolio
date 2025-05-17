@@ -136,63 +136,90 @@ export const workData = [
         description: 'Online Doctor Appointment webapp where patients can browse through specialist doctors, book appointment and make payment online.',
         bgImage: assets.prescripto,
         link: "https://github.com/naolumer/Prescripto",
-        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs],
+        liveLink: ""
     },
     {
         title: 'E-commerce',
         description: 'Fullstack Online Shop. Made using Mern technology.separate admin panel where admin can add or remove products.  ',
         bgImage: assets.forever,
         link: "https://github.com/naolumer/Full-Stack-E-commerce-Website",
-        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs],
+        liveLink: ""
     },
     {
         title: 'Authentication-MERN',
         description: 'Full fledged user authentication including resetting password, email verification, OTP verifcation, realtime notifications.',
         bgImage: assets.mern_auth,
         link: "https://github.com/naolumer/Authentication-using-MERN",
-        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs],
+        liveLink: ""
     },
     {
         title: 'Polling Website',
         description: 'A polling website where users can create, vote, bookmark and manage their polls. also includes profile updating.',
         bgImage: assets.poll_app,
         link: "https://github.com/naolumer/Polling-website",
-        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs],
+        liveLink: ""
+    }, 
+    
+    {
+        title: 'Netflix Clone',
+        description: 'Fullstack netflix app built using react and firebase.',
+        bgImage: assets.netflixclone,
+        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Netflix-Clone/netflix",
+        techStack: [reactjs, firebase, css,javascript],
+        liveLink: ""
+    },
+    {
+        title: "Modern Real Estate Site",
+        description: "A real estate website built using react.js, tailwind, and framer motion for animation",
+        bgImage: assets.realEstate,
+        link: "https://github.com/naolumer/RealEstate-Website/tree/main/RealEstate",
+        techStack: [reactjs,tailwind,framer_motion],
+        liveLink: ""
     },
     {
         title: 'Youtube Clone',
         description: 'Youtube clone built using reactjs',
         bgImage: assets.youtubeclone,
         link: "https://github.com/naolumer/Web-Development/tree/main/REACT/youtubeClone",
-        techStack: [reactjs, css, javascript, html]
+        techStack: [reactjs, css, javascript, html],
+        liveLink: ""
     },
-    {
-        title: 'Netflix Clone',
-        description: 'Fullstack netflix app built using react and firebase.',
-        bgImage: assets.netflixclone,
-        link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Netflix-Clone/netflix",
-        techStack: [reactjs, firebase, css,javascript]
-    },
+   
     {
         title: 'Food delivery website',
         description: 'fullstack food delivery website where users can choose and order food online.',
         bgImage: assets.tomato,
         link: "https://github.com/naolumer/MERN-FoodDeliveryApp",
-        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs],
+        liveLink: ""
     },
     {
         title: 'Grocery Shop',
         description: 'Fullstack web-app for buying grocery items online. Includes user authentication, admin panel, cart system, online payment',
         bgImage: assets.greencart,
         link: "https://github.com/naolumer/Grocery-Delivery-Fullstack",
-        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs]
+        techStack: [reactjs, expressjs, mongodb, tailwind,nodejs],
+        liveLink: ""
+    },
+    {
+        title: "Fullstack todoApp",
+        description: "Todo app with adding,deleting,mark as completed functionality",
+        bgImage: assets.todoApp,
+        link: "https://github.com/naolumer/Next.js-Intro/tree/main/fullstack-todoapp",
+        techStack: [nextjs,mongodb,tailwind,mongoose],
+        liveLink: "https://fullstack-todoapp-five.vercel.app/"
     },
     {
         title: "Tesla configurator",
         description: "A website to configure tesla cars. change colors, change price based on tires...",
         bgImage: assets.tesla ,
         link: "https://github.com/naolumer/Web-Development/tree/main/Javascript-course/Tesla-Configurator",
-        techStack: [ javascript, css, html]
+        techStack: [ javascript, css, html],
+        liveLink: ""
 
     },
     {
@@ -200,37 +227,29 @@ export const workData = [
         description: "A spotify like website that we can play music with",
         bgImage: assets.spotify ,
         link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Spotify-Clone",
-        techStack: [reactjs, javascript, css]
+        techStack: [reactjs, javascript, css],
+        liveLink: ""
 
     },
+    
     {
         title: "Shoe Filtering Website",
         description: "Shoe filtering website with different filters and searching functionality",
         bgImage: assets.shoefilter ,
         link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Shoe-Filtering/shoeFiltering",
-        techStack: [reactjs, css, javascript]
+        techStack: [reactjs, css, javascript],
+        liveLink: ""
     },
-    {
-        title: "Modern Real Estate Site",
-        description: "A real estate website built using react.js, tailwind, and framer motion for animation",
-        bgImage: assets.realEstate,
-        link: "https://github.com/naolumer/RealEstate-Website/tree/main/RealEstate",
-        techStack: [reactjs,tailwind,framer_motion]
-    },
+    
     {
         title: "React Store",
         description: "Products store with filtering,searching and pagination",
         bgImage: assets.reactStore,
         link:"https://github.com/naolumer/React-Store/tree/main/react-ecommerce",
-        techStack: [reactjs, typescript, css]
+        techStack: [reactjs, typescript, css],
+        liveLink: ""
     },
-    {
-        title: "Fullstack todoApp",
-        description: "Todo app with adding,deleting,mark as completed functionality",
-        bgImage: assets.todoApp,
-        link: "https://github.com/naolumer/Next.js-Intro/tree/main/fullstack-todoapp",
-        techStack: [nextjs,mongodb,tailwind,mongoose]
-    }
+    
 ]
 
 export const serviceData = [

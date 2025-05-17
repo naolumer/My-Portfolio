@@ -73,8 +73,12 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
                 </div>
 
                 <a href={project.link} className='flex items-center gap-2 text-sm mt-5'>
-                  Read more <Image alt='' src={assets.right_arrow} className='w-4' />
+                  Github <Image alt='' src={assets.right_arrow} className='w-4' />
                 </a>
+
+                <a href={project.link} className='flex items-center gap-2 text-sm mt-2'>
+                Live Link <Image alt='' src={assets.right_arrow} className='w-4' />
+              </a>
               
                 </motion.div> 
             )) : workData.slice(0,6).map((project, index) => (
@@ -104,7 +108,7 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
                 Read more <Image alt='' src={assets.right_arrow} className='w-4' />
               </a>
 
-              <a href={project.link} className='flex items-center gap-2 text-sm mt-5'>
+              <a href={project.link} className='flex items-center gap-2 text-sm mt-2'>
                 Live Link <Image alt='' src={assets.right_arrow} className='w-4' />
               </a>
             
