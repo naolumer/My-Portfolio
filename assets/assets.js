@@ -145,7 +145,7 @@ export const workData = [
         bgImage: assets.forever,
         link: "https://github.com/naolumer/Full-Stack-E-commerce-Website",
         techStack: [reactjs, expressjs, mongodb, tailwind,nodejs],
-        liveLink: ""
+        liveLink: "https://forever-ecom.netlify.app/"
     },
     {
         title: 'Authentication-MERN',
@@ -161,7 +161,7 @@ export const workData = [
         bgImage: assets.poll_app,
         link: "https://github.com/naolumer/Polling-website",
         techStack: [reactjs, expressjs, mongodb, tailwind,nodejs],
-        liveLink: ""
+        liveLink: "https://polling-website-front.onrender.com/login"
     }, 
     
     {
@@ -170,7 +170,7 @@ export const workData = [
         bgImage: assets.netflixclone,
         link: "https://github.com/naolumer/Web-Development/tree/main/REACT/Netflix-Clone/netflix",
         techStack: [reactjs, firebase, css,javascript],
-        liveLink: ""
+        liveLink: "https://netflix-silk-eta.vercel.app/"
     },
     {
         title: "Modern Real Estate Site",
@@ -178,7 +178,7 @@ export const workData = [
         bgImage: assets.realEstate,
         link: "https://github.com/naolumer/RealEstate-Website/tree/main/RealEstate",
         techStack: [reactjs,tailwind,framer_motion],
-        liveLink: ""
+        liveLink: "https://real-estate-coral-ten.vercel.app/"
     },
     {
         title: 'Youtube Clone',
