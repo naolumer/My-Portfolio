@@ -103,6 +103,10 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
               <a href={project.link} className='flex items-center gap-2 text-sm mt-5'>
                 Read more <Image alt='' src={assets.right_arrow} className='w-4' />
               </a>
+
+              <a href={project.link} className='flex items-center gap-2 text-sm mt-5'>
+                Live Link <Image alt='' src={assets.right_arrow} className='w-4' />
+              </a>
             
               </motion.div>)) }
             </motion.div> 
