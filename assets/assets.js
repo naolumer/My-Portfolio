@@ -73,8 +73,6 @@ import github_2 from "./github-2.svg"
 
 
 
-
-
 export const assets = {
     user_image,
     code_icon,
