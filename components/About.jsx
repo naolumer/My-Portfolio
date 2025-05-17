@@ -86,7 +86,6 @@ const About = ({isDarkMode, setIsDarkMode}) => {
                     {toolsData.map((tool,index)=>(
                         <motion.li 
                         whileHover= {{scale:1.1}}
-            
                         key={index} className='flex items-center justify-center w-12 sm:w-14 aspect-square
                         cursor-pointer rounded-lg hover:-translate-y-1 duration-500'>
                           <Image src={tool} alt='Tool' className='w-8 sm:w-16'/>
