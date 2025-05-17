@@ -35,7 +35,7 @@ const Header = ({isDarkMode,setIsDarkMode}) => {
             <motion.p 
              initial = {{opacity: 0}}
              whileInView={{opacity:1}}
-             transition={{duration: 0.6, delay: 0.7}}
+             transition={{duration: 0.5, delay: 0.7}}
             className='max-w-2xl mx-auto font-Ovo'>
                 I am a fullstack developer from Addis Ababa, Ethiopia with almost 2 years of experience in 
                 building multiple projects from start to completion.
