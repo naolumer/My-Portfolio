@@ -122,5 +122,4 @@ const Work = ({isDarkMode, setIsDarkMode}) => {
         </motion.div>
   )
 }
-
 export default Work
